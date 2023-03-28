@@ -1,0 +1,48 @@
+/* Write your CSS code here */
+.about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.about-image {
+  width: 100%;
+  max-width: 200px;
+  max-height: 250px;
+}
+
+@media screen and (min-width: 768px) {
+  .about-image {
+    max-width: 350px;
+    max-height: 350px;
+  }
+}
+
+.about-heading {
+  color: #6d396b;
+  font-family: 'Roboto';
+  font-size: 35px;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .about-heading {
+    font-size: 40px;
+  }
+}
+
+.about-des {
+  color: #555555;
+  font-family: 'Roboto';
+  font-size: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .about-des {
+    font-size: 20px;
+  }
+}

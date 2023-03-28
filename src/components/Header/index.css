@@ -1,0 +1,83 @@
+/* Write your CSS code here */
+
+.navbar-container {
+  background-color: #ffffff;
+  min-height: 90px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border-radius: 15px;
+}
+
+.nav-items-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 98%;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-items-container {
+    width: 95%;
+  }
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 28px;
+  width: 28px;
+  margin-right: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .logo {
+    height: 40px;
+    width: 40px;
+  }
+}
+
+.logo-name {
+  color: #12022f;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+  .logo-name {
+    font-size: 22px;
+  }
+}
+
+.list-container {
+  display: flex;
+  align-items: center;
+  padding-left: 0px;
+}
+
+.nav-items {
+  color: #12022f;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-items {
+    font-size: 22px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+.list-item {
+  list-style-type: none;
+}
